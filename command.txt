@@ -1,0 +1,5 @@
+kubectl get pods
+kubectl port-forward nats-depl-5485bddbd5-7rxr4 4222:4222
+
+npm run publish
+npm run listen
